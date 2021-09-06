@@ -1,1 +1,20 @@
-# frontend-mentor-projects
+# Frontend-Mentor-Challenges
+
+| #   | Project                                                                                                                        | Live Demo                                                                                        |
+| --- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| #1  | [Stats preview](https://github.com/janashia7/frontend-mentor-projects/tree/main/Stats-preview)                                 | [Live Demo](https://janashia7.github.io/frontend-mentor-projects/Stats-preview/)                 |
+| #2  | [Columns preview](https://github.com/janashia7/frontend-mentor-projects/tree/main/Columns-preview)                             | [Live Demo](https://janashia7.github.io/frontend-mentor-projects/Columns-preview/)               |
+| #3  | [Profile Card](https://github.com/janashia7/frontend-mentor-projects/tree/main/Profile-Card)                                   | [Live Demo](https://janashia7.github.io/frontend-mentor-projects/Profile-Card/)                  |
+| #4  | [Faq accordion card](https://github.com/janashia7/frontend-mentor-projects/tree/main/Faq-accordion-card)                       | [Live Demo](https://janashia7.github.io/frontend-mentor-projects/Faq-accordion-card/)            |
+| #5  | [Social proof section](https://github.com/janashia7/frontend-mentor-projects/tree/main/Social-proof-section)                   | [Live Demo](https://janashia7.github.io/frontend-mentor-projects/Social-proof-section/)          |
+| #6  | [Article preview component](https://github.com/janashia7/frontend-mentor-projects/tree/main/Article-preview-component)         | [Live Demo](https://janashia7.github.io/frontend-mentor-projects/Article-preview-component/)     |
+| #7  | [Four card feature](https://github.com/janashia7/frontend-mentor-projects/tree/main/Four-card-feature)                         | [Live Demo](https://janashia7.github.io/frontend-mentor-projects/Four-card-feature/)             |
+| #8  | [Base apparel coming soon](https://github.com/janashia7/frontend-mentor-projects/tree/main/Base-apparel-coming-soon)           | [Live Demo](https://janashia7.github.io/frontend-mentor-projects/Base-apparel-coming-soon/)      |
+| #9  | [Signup form](https://github.com/janashia7/frontend-mentor-projects/tree/main/Signup-form)                                     | [Live Demo](https://janashia7.github.io/frontend-mentor-projects/Signup-form/)                   |
+| #10 | [Single price grid](https://github.com/janashia7/frontend-mentor-projects/tree/main/Single-price-grid)                         | [Live Demo](https://janashia7.github.io/frontend-mentor-projects/Single-price-grid/)             |
+| #11 | [Ping coming soon](https://github.com/janashia7/frontend-mentor-projects/tree/main/Ping-coming-soon)                           | [Live Demo](https://janashia7.github.io/frontend-mentor-projects/Ping-coming-soon/)              |
+| #12 | [Huddle landing page](https://github.com/janashia7/frontend-mentor-projects/tree/main/Huddle-landing-page)                     | [Live Demo](https://janashia7.github.io/frontend-mentor-projects/Huddle-landing-page/)           |
+| #13 | [Blogr landing page](https://github.com/janashia7/frontend-mentor-projects/tree/main/Blogr-landing-page)                       | [Live Demo](https://janashia7.github.io/frontend-mentor-projects/Blogr-landing-page/)            |
+| #14 | [Sunnyside landing page](https://github.com/janashia7/frontend-mentor-projects/tree/main/Sunnyside-landing-page)               | [Live Demo](https://janashia7.github.io/frontend-mentor-projects/Sunnyside-landing-page/)        |
+| #15 | [Crowdfunding product page](https://github.com/janashia7/frontend-mentor-projects/tree/main/Crowdfunding-product-page)         | [Live Demo](https://janashia7.github.io/frontend-mentor-projects/Crowdfunding-product-page/)     |
+| #16 | [Interactive pricing component](https://github.com/janashia7/frontend-mentor-projects/tree/main/Interactive-pricing-component) | [Live Demo](https://janashia7.github.io/frontend-mentor-projects/Interactive-pricing-component/) |
