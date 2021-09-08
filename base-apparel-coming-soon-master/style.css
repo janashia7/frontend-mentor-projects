@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  font-size: 16px;
+}
+
+main {
+ max-width: 1440px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+}
+
+.imageSide {
+  width:42%;
+}
+
+.imageBg {
+  background-image: url(/images/hero-desktop.jpg);
+  background-position: center center;
+  background-size:auto;
+  background-repeat: no-repeat;
+}
+
+.imageSide img {
+  width: 100%;
+  height: auto;
+}
+
+.newsLetters {
+  display: flex;
+  flex-direction: column;
+  width: 58%;
+  background-image: url("images/bg-pattern-desktop.svg"),
+    linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)),
+    linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    background-size: cover;
+    padding: 60px 15% 8% 11%;
+}
+
+.logoBase {
+    margin-bottom: 120px;
+}
+
+.bg-mobile {
+    display: none;
+}
+
+.heading {
+    max-width: 360px;
+    margin-bottom: 36px;
+}
+
+.heading h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 3.8rem;
+    color:  hsl(0, 6%, 24%);
+    letter-spacing: 15px;
+    line-height: 1.1;
+    transform: translateX(-150%);
+    animation: fromLeft .5s ease forwards;
+}
+
+.specialText {
+    color:hsl(0, 36%, 70%);   
+    font-weight: 300;
+    display: block;
+}
+
+.textBox {
+    max-width: 450px;
+    margin-bottom: 35px;
+}
+
+.textBox p {
+    color: hsl(0, 36%, 70%);
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 15px;
+    transform: translateX(80%);
+    opacity: 0;
+    animation: fromRight .5s ease forwards;
+}
+.subscribe {
+  position: relative;
+  transform: translateX(-150%);
+  animation: fromLeft .5s ease forwards;
+}
+
+.subscribe input {
+    background-color: transparent;
+    width: 100%;
+    border-radius: 50px;
+    padding: 15px 30px;
+    border: 1px solid hsl(0, 36%, 70%);
+    font-size: 1rem;
+    height: 55px;
+    transition: .2s ease;
+    outline: none;
+}
+
+.subscribe input::placeholder {
+  color: hsl(0, 36%, 70%);
+  opacity: .8;
+}
+
+.subscribe input:focus {
+  border-width: 2px;
+}
+
+.subscribe.error input {
+  border: 2px solid hsl(0, 93%, 68%);
+}
+
+.subscribe button {
+  background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  box-shadow: 2px 5px 10px hsl(0, 36%, 70%, 0.5);
+  border: none;
+  border-radius: 50px;
+  padding: 15px;
+  width: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 55px;
+  cursor: pointer;
+}
+
+.subscribe button:hover {
+  background-image: linear-gradient(135deg, hsl(0, 57%, 92%), hsl(0, 75%, 82%));
+}
+
+.error-icon {
+  display: none;
+  position: absolute;
+  top: 15px;
+  right: 110px;
+}
+
+form.error .error-icon {
+  display: block;
+}
+
+small {
+    display: none;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: hsl(0, 93%, 68%);
+}
+
+form.error small {
+    display: block;
+}
+
+@keyframes fromLeft {
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fromRight {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+      height: auto;
+      background-image: linear-gradient(135deg, hsl(0, 57%, 92%), hsl(0, 75%, 82%));;
+  }
+
+  .newsLetters {
+      background-image:
+      linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)),
+      linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+      width: 100%;
+      padding: 30px;
+      padding-bottom: 70px;
+      height: auto;
+  }
+  .imageSide {
+      display: none;
+  }
+
+  .bg-mobile {
+      display: block;
+      width: calc(100% + 80px);
+      margin: 0;
+      margin-right: -40px;
+      margin-left: -40px;
+  }
+
+  .bg-mobile img {
+      width: 100%;
+  }
+
+  .logoBase {
+      width: 100px;
+      margin: 0 0 25px 0;
+  }
+
+  .logoBase img {
+     width: 100%;
+  }
+
+  .textBox {
+      margin: 0 auto 35px auto;
+  }
+
+  .textBox p {
+      text-align: center;
+      font-size: .875rem;
+  }
+
+  .heading {
+      margin: 50px auto 25px auto;
+  }
+
+  .heading h1 {
+      font-size: 2.5rem;
+      text-align: center;
+  }
+     
+}
+
